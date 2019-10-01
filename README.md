@@ -7,7 +7,8 @@ Create a virtual Python environment
 Switch to the virtual environment  
 `source env/bin/activate`  
 Install the necessary packages  
-`pip install -r requirements.txt`  
+`pip install -r requirements.txt`
+`sudo apt-get install tesseract-ocr` 
 
 ### Running the Server
 `export FLASK_APP=server.py`  
